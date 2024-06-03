@@ -3,8 +3,7 @@
   font-family: "Aeonik";
   font-style: normal;
   font-weight: 500;
-  src: url("https://tomas-purplefire.github.io/fonts/Aeonik-Medium.otf")
-    format("opentype");
+  src: url("./fonts/Aeonik-Medium.otf") format("opentype");
 }
 
 /* Aeonik Bold */
@@ -21,6 +20,9 @@
   font-family: "BuzzBlack Trial";
   font-style: normal;
   font-weight: 400;
-  src: url("https://tomas-purplefire.github.io/fonts/BuzzBlackTrial.otf")
-    format("opentype");
+  src: url("../fonts/BuzzBlackTrial.otf") format("opentype");
+}
+
+body {
+  font-family: "BuzzBlack Trial";
 }
