@@ -1,0 +1,7 @@
+[[headers]]
+  # Defines which paths this rule applies to
+  for = "/fonts/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET"
+    Access-Control-Allow-Headers = "Content-Type"
